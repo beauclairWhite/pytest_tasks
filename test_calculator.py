@@ -16,3 +16,10 @@ from calculator import evaluate
 
 def test_answer():
     assert eval('2*2') == 4
+
+def test_four_and_four():
+    assert eval('4 * 4') != 20
+
+def test_two_and_two():
+    assert eval('2 + 2') != 5
+
